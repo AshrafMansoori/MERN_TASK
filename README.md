@@ -1,6 +1,8 @@
 # MERN Task Management Application
 
 A full-stack task management application built with the MERN stack (MongoDB, Express, React, Node.js).
+<img width="1920" height="1080" alt="Screenshot 2026-04-20 140156" src="https://github.com/user-attachments/assets/345a2404-1296-4e68-a5c1-8603f7e9538b" />
+
 
 ## Project Overview
 
