@@ -1,0 +1,194 @@
+.App{
+  width: 900px;
+  height: 600px;
+  box-shadow: 1px 8px 10px rgba(0, 0, 0, 0.8);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0;
+  margin: 0;
+}
+h2{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  display: flex;
+  padding: 20px 20px 0 30px;
+  align-items: center; 
+}
+.input-container{
+  display: flex;
+  
+  padding: 20px 30px 0 30px;
+ 
+}
+input{
+  width: 485px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: 400;
+  outline-width: 0cap;
+  margin: 10px;
+  
+}
+textarea{
+  height: 90px;
+  width: 500px;
+   margin: 10px;
+   border-radius: 10px;
+   border: 1px solid #ccc ;
+}
+/* .input-add{
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+} */
+#add-button{
+  padding: 5px 9px 3px 9px  ;
+  background-color:#7417ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-right: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+}
+#add-button:active{
+  background-color: #fff;
+  color: #7417ff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.todo-list{
+  margin: 5px 10px 10px 10px;
+  padding: 5px;
+ height: 260px;
+ color: #232323;
+ overflow: scroll;
+ scrollbar-width: none;
+
+}
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  font-size: large;
+  margin-bottom: 5px;
+}
+.delete-button{
+  padding: 5px 10px;
+  height: 35px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.delete-button:active{
+  background-color: #fff;
+  color: #ff4d4d;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.plusicon{
+  fill: #fff;
+  width: 25px;
+  height: 25px;
+}
+.plusicon:active{
+  fill: #7417ff;
+  background-color: #fff;
+}
+.empty-message{
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #888;
+  padding-left: 20px;
+}
+#clear-button{
+  padding: 5px 10px;
+  height: 35px;
+  background-color: #7417ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+#title{
+  font-weight: bold;
+}
+
+/* --- Pop-up Modal Styles --- */
+.action-buttons {
+  display: flex;
+  gap: 8px;
+  
+}
+
+.modal-overlay {
+  position: fixed; /* This makes it float on top */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 24px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  z-index: 1001;
+}
+
+.modal-description {
+  margin: 20px 0;
+  line-height: 1.5;
+  color: #555;
+  word-wrap: break-word;
+}
+
+.view-button{
+  padding: 5px 10px;
+  background-color: #1bb6ce;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.close-button{
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
