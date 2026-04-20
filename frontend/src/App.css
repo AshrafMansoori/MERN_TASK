@@ -6,6 +6,8 @@
   border-radius: 10px;
   padding: 0;
   margin: 0;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 h2{
   margin: 0;
@@ -191,4 +193,5 @@ textarea{
   border-radius: 5px;
   cursor: pointer;
 }
+
 
